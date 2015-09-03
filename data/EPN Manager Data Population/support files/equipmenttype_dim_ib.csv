@@ -1,0 +1,17 @@
+1|1|Other
+2|2|Unknown
+3|3|Chassis
+4|4|Backplane
+5|6|PowerSupply
+6|7|Fan
+7|9|Module
+8|18|Rack
+9|100|Processor
+10|101|Disk
+11|102|Memory_Module
+12|103|Compute_Blade
+13|104|Chassis_Extender
+14|105|Motherboard
+15|106|IP_Phone
+16|107|Wireless_AP
+17|108|Pluggable_Transceiver

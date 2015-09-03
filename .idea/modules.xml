@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/Prime_Insight.iml" filepath="$PROJECT_DIR$/.idea/Prime_Insight.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Wizard/.idea/Wizard.iml" filepath="$PROJECT_DIR$/../Wizard/.idea/Wizard.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../wap-pages/.idea/wap-pages.iml" filepath="$PROJECT_DIR$/../wap-pages/.idea/wap-pages.iml" />
+    </modules>
+  </component>
+</project>

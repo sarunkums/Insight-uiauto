@@ -1,0 +1,31 @@
+pc_system_details:
+  -
+    server_ip: 172.20.87.6
+    port: 80
+    app_username: globaladmin
+    #app_defaultpassword: 1qaz@WSX
+    app_root: root
+    app_password: 1qaz@WSX
+    browserType: firefox
+    # browserType : chrome
+    # browserType : ie
+    scriptMaxTime: 0
+    firebugExtn: firebug.xpi
+    build: insight_1.1_ova
+    build_number: 399
+    branch: pis_1.1
+    testType: smoke
+
+timeout_details:
+  -
+    long_time: 40
+    short_time: 10
+
+data_system_details:
+  -
+    server_ip: 172.20.87.6
+    port: 80
+    app_username: globaladmin
+    #app_defaultpassword: 1qaz@WSX
+    app_root: root
+    app_password: 1qaz@WSX

@@ -1,0 +1,44 @@
+common_attribute:
+  -
+ 
+    single_duration: "Last 14 Days"
+    all_duration: ["Last 7 Days","Last 2 Weeks","Last 4 Weeks","Last 12 Weeks","Last 24 Weeks","Last 52 Weeks","Last 56 Weeks","Last 12 Months","Last 13 Months"]
+    detailView_duration: ["7 Days","2 Weeks","4 Weeks","12 Weeks","24 Weeks","52 Weeks","56 Weeks","12 Months","13 Months"]
+    detailView_filterOption: ["By Timeperiod","By Group","Devices","Interfaces","Calculation Mode","Calculate By","Graph View","Trend Using"]
+    interface_name: "Backplane-GigabitEthernet0/3" 
+    interface_title: "FastEthernet0/1@3560_switch_top.cisco.com Utilization"
+    chart_icon: ["Chart Mode","Grid Mode","Chart Types","Export/Print"]
+    interface_tableInput: "Input Utilization (%)"
+    interface_tableOutput: "Output Utilization (%)"
+    report_option: ["Schedule Report","Export","Print"]
+    export_formeta: "CSV PDF"
+    print_text: "Exporting for printing..."
+    export_formetb: ["CSV","PDF"]
+    pin_title: "Unpin"
+    home_tab: ["Interface Utilization","Errors and Discards","QoS Classes"]
+    detail_calendar_view: ["Calendar View","Detailed View"]
+    filter_option: "Quick Filter\nAll"
+    export_formetc: ["Schedule Report","Export to CSV"]
+    filter: ["Duration","Location","Interface Group"]
+    detailView_DatePopUp: "Custom Period"
+                               
+errors_and_discards_service:
+  -
+ 
+    detailview_pagetitle: "Detailed Analysis: Errors and Discards"
+    
+
+interface_Utilization_service:
+  -
+ 
+    detailview_pagetitle: "Detailed Analysis: Interface Utilization"
+
+qos_service:
+  -
+ 
+    table_ColumnName: ["Interface Name","Device Name","Class Name","Location","Direction","Pre Policy Rate","Post Policy Rate","Drops"]
+    filter_qos: ["Duration","Location","Interface Group","QoS Classmap"]
+    qosClassmap_filter: ["All","QPM_PQ","class-default"]
+    qosClassmap_QuickViewQOSTableColumnName: ["AvgPrePolicyOctetsRate -Input", "AvgPostPolicyOctetsRate -Input", "AvgDropOctetsRate -Input"]
+    qosClassmap_QuickViewInterfaceTableColumnName: ["Time Period", "Input Utilization (%)", "Output Utilization (%)"]
+    detailview_pagetitle: "Detailed Analysis: QoS Classes"

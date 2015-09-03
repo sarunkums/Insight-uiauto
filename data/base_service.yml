@@ -1,0 +1,17 @@
+common_attribute:
+  -
+
+
+report_templates_service:
+  -
+    report_title_empty: "Title Cannot be empty."
+   
+scheduled_reports_service:
+  -
+    report_suspended: "Suspended"
+    report_delete: "No data available"
+    page_title: "Scheduled Reports"	
+    
+single_sign_on_service:
+  -
+    qos_pagetitle: "Single Sign-On"
