@@ -1,0 +1,30 @@
+
+US6419-Getting Started PopUp
+  should be verify Getting Started Pop up::Tny1662725c
+  should be Verify Getting Started Pop Up window options::Tny1662726c
+  should be Verify Close button in Getting Started pop up window::Tny1662727c
+  should be Verify Don not show this on start up check box::Tny1662728c
+  should be Verify clicking on Do not show this on start up check box in Getting started pop Up window::Tny1662729c
+  should be Verify Getting started option in setting button drop down list from the top right side of the page::Tny1662731c
+  should be Verify Click on Getting started option in setting button drop down list from the top right side of the page.::Tny1662732c
+  should be Verify Manage Users and Roles option from the Getting started pop up window.::Tny1662734c
+  should be Verify Data Sources option from the Getting started pop up window::Tny1662735c
+  should be Verify Custom Views option from the Getting started pop up window::Tny1662736c
+  should be Verify Saved Reports option from the Getting started pop up window::Tny1662737c (FAILED - 1)
+  should be Verify do not show this on start up check box in Getting started pop Up window and logout operation::Tny1662730c
+
+Failures:
+
+  1) US6419-Getting Started PopUp should be Verify Saved Reports option from the Getting started pop up window::Tny1662737c
+     Failure/Error: page.savedReports_element.flash.click
+     Watir::Exception::UnknownObjectException:
+       unable to locate element, using {:class=>"columnLink", :text=>"Saved Reports", :tag_name=>"div"}
+     # ./spec/home/getting_started_spec.rb:104:in `block (3 levels) in <top (required)>'
+     # ./spec/home/getting_started_spec.rb:101:in `block (2 levels) in <top (required)>'
+
+Finished in 4 minutes 46.7 seconds
+12 examples, 1 failure
+
+Failed examples:
+
+rspec ./spec/home/getting_started_spec.rb:100 # US6419-Getting Started PopUp should be Verify Saved Reports option from the Getting started pop up window::Tny1662737c
